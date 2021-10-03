@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+
+.nav{
+    padding: 2px;
+    background-color: #435ef6;
+    color: white;
+    font-family: 'Bonheur Royale', cursive;
+    padding-left: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h4{
+    margin: 0;
+    font-size: 50px;
+    margin-right: 20px ;
+}
+
+.form-pesquisa{
+    display: flex;
+}
+
+.pesquisa{
+    width: 300px;
+    height: 30px;
+    border: 0;
+    outline: none;
+    padding: 3px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.button-pesquisa{
+    border: 0;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.cadastrese{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.menu-right{
+    display: flex;
+}
+
+.margin-left{
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.ola{
+    transform: translateY(30%);
+    margin: 0;
+}
+
+.btn-sair{
+    color: rgb(199, 199, 199) !important;
+}

@@ -1,0 +1,43 @@
+.card{
+    width: 230px;
+    height: 400px;
+    background-color: #fff;
+    color: #666a6f;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+
+}
+
+.card:hover{
+    -webkit-box-shadow: 5px 5px 14px 5px rgba(0,0,0,0.35); 
+    box-shadow: 5px 5px 14px 5px rgba(0,0,0,0.35);  
+}
+
+.product-images{
+    height: 8.25rem;
+    width: auto;
+}
+
+.price{
+    color: #ff6500;
+    font-size: 40px;
+}
+
+.btn-cards{
+    background-color: #ff6500;
+    border: 0;
+    height: 30px;
+    width: 100%;
+    cursor: pointer;
+    color: white;
+    margin-top: 40px;
+}
+
+.Vista{
+    margin-bottom: 10px;
+}
+
+.name-product{
+    height: 70px;
+}

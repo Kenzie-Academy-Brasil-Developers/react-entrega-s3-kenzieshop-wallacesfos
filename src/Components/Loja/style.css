@@ -1,0 +1,29 @@
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+
+.container-products-title{
+    background-color: #ff6500;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    width: 97%;
+}
+
+.products-cards{
+    background-color: #fafafb;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

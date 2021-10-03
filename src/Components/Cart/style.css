@@ -1,0 +1,21 @@
+
+.Container-Cart{
+    width: 100vw;
+    height: 100%;
+    max-width: 97vw;
+    min-height: 89.1vh;
+    background-color: #fafafb;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.price-Total{
+    background-color: #ff6500 !important;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
