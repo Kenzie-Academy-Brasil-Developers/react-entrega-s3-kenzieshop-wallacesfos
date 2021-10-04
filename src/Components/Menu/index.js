@@ -7,8 +7,7 @@ import { Button } from '@material-ui/core';
 import { Products } from '../Products';
 import { useState } from 'react';
 import { connect } from 'react-redux';
-
-
+import alanzoka from "../../images/Alanzoka.jpg"
 
 function Menu(props){
 
@@ -55,7 +54,7 @@ function Menu(props){
             </div>
 
             <div className="menu-right">
-                <h4 className="cadastrese" onClick={() => Logado === null && history.push('/login')}><PersonIcon /> {Logado !== null? <p className="ola">Olá, {Logado} <Button className="btn-sair" onClick={sair}>Sair</Button></p> : "Faça Login ou cadastre-se"}</h4>
+                <h4 className="cadastrese" onClick={() => Logado === null && history.push('/login')}>{Logado !== null ? <img src={alanzoka} alt="alan" className="alan" /> : <PersonIcon />} {Logado !== null? <p className="ola">Olá, {Logado} <Button className="btn-sair" onClick={sair}>Sair</Button></p> : "Faça Login ou cadastre-se"}</h4>
                 <div>
                     <ShoppingCartIcon className="margin-left" onClick={() => cartPush()}/>
                     {props.cart}
