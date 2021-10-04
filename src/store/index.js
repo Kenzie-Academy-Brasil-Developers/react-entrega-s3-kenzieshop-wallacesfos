@@ -8,4 +8,5 @@ const reducers = combineReducers({ cart: cartReducer });
 
 const store = createStore(reducers, applyMiddleware(thunk));
 
+
 export default store;

@@ -53,3 +53,30 @@
 .btn-login{
     width: 100%;
 }
+
+@media (max-width: 768px){
+    .forms{
+        flex-direction: column;
+    }
+
+    .Login{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .register{
+        border: 0;
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+        border-top: 2px solid lightgray;
+        margin-bottom: 20px;
+
+    }
+
+    .container-register{
+        height: 100%;
+    }
+
+}

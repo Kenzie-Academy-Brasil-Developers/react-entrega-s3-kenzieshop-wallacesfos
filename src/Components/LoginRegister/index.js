@@ -77,6 +77,7 @@ export default function LoginRegister(){
                     <TextField required 
                     margin="normal" 
                     label="Senha" 
+                    type="password"
                     variant='outlined' 
                     className="input-Login"
                     onChange={e => setSenha(e.target.value)}

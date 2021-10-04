@@ -1,11 +1,13 @@
 import { addToCart } from "./actions";
 
-export const addToCartThunk = (product) => (dispatch, getState) => {
+export const addToCartThunk = (product) => (dispatch) => {
     const list = JSON.parse(localStorage.getItem("cart")) || []
 
-    const newList = [...list, product];
+    list.push(product)
 
-    localStorage.setItem("cart", JSON.stringify(newList))
+    //const newList = [...list, product];
+
+    localStorage.setItem("cart", JSON.stringify(list))
 
     dispatch(addToCart(product))
 }

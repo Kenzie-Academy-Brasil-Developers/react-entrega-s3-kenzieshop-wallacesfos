@@ -27,3 +27,22 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
+
+@media (max-width: 768px) {
+    .banner{
+        display: none;
+    }
+
+    .Container{
+        width: 100%;
+    }
+
+    .products{
+        width: 100%;
+    }
+
+    .container-products-title{
+       text-align: center;
+    }
+    
+}
