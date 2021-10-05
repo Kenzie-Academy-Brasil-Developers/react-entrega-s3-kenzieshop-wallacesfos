@@ -77,6 +77,12 @@ h4{
     display: none;
 }
 
+.alan{
+    width: 40px;
+    border-radius: 50px;
+    margin-right: 4px;
+}
+
 @media (max-width: 768px){
     .form-pesquisa{
         width: 150px;

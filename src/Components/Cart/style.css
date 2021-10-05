@@ -7,8 +7,9 @@
     background-color: #fafafb;
     padding: 20px;
     display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .price-Total{
@@ -20,10 +21,61 @@
     align-items: center;
 }
 
-.alan{
-    width: 40px;
-    border-radius: 50px;
-    margin-right: 4px;
+.frete{
+    background-color: #fff;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: orange;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.forms-frete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.informacoes{
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-calcular{
+    background-color: orange !important;
+    color: white !important;
+    font-weight: bold !important;
+    height: 45px;
+    margin-left: 10px !important;
+}
+
+.container-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+.title-information{
+    font-size: 30px;
+    text-align: center;
+    color: #ff6500;
+    margin: 0;
+}
+
+.span{
+    color: green;
 }
 
 @media (max-width: 768px){
