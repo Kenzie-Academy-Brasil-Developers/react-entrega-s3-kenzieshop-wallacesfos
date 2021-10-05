@@ -31,7 +31,8 @@
     color: orange;
     padding: 30px;
     font-family: Arial, Helvetica, sans-serif;
-
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.67); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.67);
 }
 
 .forms-frete{
